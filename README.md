@@ -8,7 +8,7 @@
 
 Deploying a token is straightforward. Operating a tokenized fund is not.
 
-In traditional fund administration, a transfer agent maintains investor eligibility records, validates subscription and redemption instructions against cash movements, enforces transfer restrictions, and reconciles share registers daily. When the share register moves on-chain, that operational surface area doesn't shrink — it expands. Now the books and records live in two places, and they must agree.
+In traditional fund administration, a transfer agent maintains investor eligibility records, validates subscription and redemption instructions against cash movements, enforces transfer restrictions, and reconciles share registers daily. When the share register moves on-chain, that operational surface area doesn't shrink, it expands. Now the books and records live in two places, and they must agree.
 
 This repo demonstrates practical understanding of that operational reality. It simulates a small institutional fund with permissioned investors, wallet whitelisting, subscription-based minting, redemption-based burning, restricted peer-to-peer transfers, off-chain books and records, and a daily reconciliation that flags exceptions.
 
