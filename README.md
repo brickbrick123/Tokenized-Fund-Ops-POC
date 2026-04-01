@@ -1,6 +1,6 @@
 # Tokenized Fund Operations Demo
 
-**A proof-of-concept that models the operational layer behind a tokenized private fund — not just the smart contracts, but the investor onboarding, transfer restrictions, books and records, daily reconciliation, and exception management that make tokenized funds work in a regulated institutional setting.**
+**A proof-of-concept that models the operational layer behind a tokenized private fund, not just the smart contracts, but the investor onboarding, transfer restrictions, books and records, daily reconciliation, and exception management that make tokenized funds work in a regulated institutional setting.**
 
 ---
 
