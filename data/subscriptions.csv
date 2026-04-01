@@ -1,0 +1,5 @@
+subscription_id,investor_id,wallet_address,amount_usd,tokens_expected,cash_received,cash_date,mint_status,on_chain_tx,settlement_status,notes
+SUB-001,INV-001,0x1001000000000000000000000000000000000000,500000.00,500.000000,yes,2025-03-01,minted,0xabc001,settled,Clean subscription — cash received and tokens minted
+SUB-002,INV-002,0x2001000000000000000000000000000000000000,1000000.00,1000.000000,yes,2025-03-01,minted,0xabc002,settled,Clean subscription
+SUB-003,INV-003,0x3001000000000000000000000000000000000000,750000.00,750.000000,yes,2025-03-05,pending,,pending_mint,"Cash received but mint instruction not yet executed — EXPECTED RECON BREAK"
+SUB-004,INV-004,0x4001000000000000000000000000000000000000,250000.00,250.000000,yes,2025-03-10,blocked,,blocked,"Cash received but investor KYC not cleared — cannot mint"

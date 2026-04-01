@@ -1,0 +1,5 @@
+investor_id,wallet_address,label,approved,approved_date,notes
+INV-001,0x1001000000000000000000000000000000000000,north-river-primary,yes,2025-01-16,Registered after KYC clearance
+INV-002,0x2001000000000000000000000000000000000000,elm-street-primary,yes,2025-02-02,Registered after KYC clearance
+INV-003,0x3001000000000000000000000000000000000000,harbor-peak-primary,yes,2025-02-11,Registered after KYC clearance
+INV-004,0x4001000000000000000000000000000000000000,juniper-pending,no,,Wallet submitted but investor KYC not yet cleared

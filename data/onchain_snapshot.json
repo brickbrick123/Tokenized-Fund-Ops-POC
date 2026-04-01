@@ -1,0 +1,45 @@
+{
+  "snapshot_timestamp": "2025-03-15T06:00:00Z",
+  "block_number": 19500000,
+  "token_contract": "0xTokenContractAddress",
+  "total_supply": 1250.0,
+  "balances": {
+    "0x1001000000000000000000000000000000000000": 500.0,
+    "0x2001000000000000000000000000000000000000": 750.0,
+    "0x3001000000000000000000000000000000000000": 0.0
+  },
+  "recent_events": [
+    {
+      "event": "Subscription",
+      "investor_wallet": "0x1001000000000000000000000000000000000000",
+      "amount": 500.0,
+      "subscription_id": "SUB-001",
+      "tx_hash": "0xabc001",
+      "block": 19400100
+    },
+    {
+      "event": "Subscription",
+      "investor_wallet": "0x2001000000000000000000000000000000000000",
+      "amount": 1000.0,
+      "subscription_id": "SUB-002",
+      "tx_hash": "0xabc002",
+      "block": 19400200
+    },
+    {
+      "event": "Redemption",
+      "investor_wallet": "0x2001000000000000000000000000000000000000",
+      "amount": 250.0,
+      "redemption_id": "RED-001",
+      "tx_hash": "0xdef001",
+      "block": 19450100
+    },
+    {
+      "event": "TransferBlocked",
+      "from": "0x1001000000000000000000000000000000000000",
+      "to": "0x4001000000000000000000000000000000000000",
+      "amount": 50.0,
+      "reason": "recipient_not_approved",
+      "block": 19460050
+    }
+  ]
+}

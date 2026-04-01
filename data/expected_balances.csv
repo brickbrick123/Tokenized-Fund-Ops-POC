@@ -1,0 +1,5 @@
+investor_id,wallet_address,expected_tokens,basis,notes
+INV-001,0x1001000000000000000000000000000000000000,500.000000,"SUB-001 minted 500; RED-002 queued but NOT yet burned",Balance should be 500 on-chain until RED-002 burn executes — then 400
+INV-002,0x2001000000000000000000000000000000000000,750.000000,"SUB-002 minted 1000; RED-001 burned 250",Clean — matches on-chain
+INV-003,0x3001000000000000000000000000000000000000,0.000000,"SUB-003 cash received but mint pending",On-chain will show 0 — off-chain expects 750 once minted
+INV-004,0x4001000000000000000000000000000000000000,0.000000,"SUB-004 blocked — KYC not cleared",No tokens should exist

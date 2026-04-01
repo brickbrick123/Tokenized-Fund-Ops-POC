@@ -1,0 +1,5 @@
+investor_id,legal_name,jurisdiction,kyc_status,kyc_date,accredited,status,notes
+INV-001,North River Family Office,US-NY,cleared,2025-01-15,yes,active,Clean onboarding — all docs verified
+INV-002,Elm Street Capital,US-CT,cleared,2025-02-01,yes,active,Clean onboarding
+INV-003,Harbor Peak LP,CA-ON,cleared,2025-02-10,yes,active,Cross-border investor — Canadian entity
+INV-004,Juniper Advisory,US-CA,pending,2025-03-20,unknown,pending,"KYC documents submitted, under review — NOT YET APPROVED"
