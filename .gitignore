@@ -1,0 +1,14 @@
+## Foundry
+/out/
+/cache/
+/broadcast/
+
+## Python
+__pycache__/
+*.pyc
+
+## OS
+.DS_Store
+
+## Environment
+.env
