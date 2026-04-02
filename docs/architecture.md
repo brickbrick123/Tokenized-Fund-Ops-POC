@@ -2,7 +2,7 @@
 
 ## System Layers
 
-This project models a tokenized fund as three coordinated layers — on-chain, off-chain, and a post-quantum signing layer — with a reconciliation bridge that verifies all three.
+This project models a tokenized fund as three coordinated layers, on-chain, off-chain, and a post-quantum signing layer, with a reconciliation bridge that verifies all three.
 
 ```
 ┌──────────────────────────────────────────────────────────┐
