@@ -1,6 +1,6 @@
 # Tokenized Fund Operations Demo
 
-**A proof-of-concept that models the operational layer behind a tokenized private fund — not just the smart contracts, but the investor onboarding, transfer restrictions, books and records, daily reconciliation, exception management, and a hybrid post-quantum signing layer that secures every off-chain operational approval with ML-DSA-65 (NIST FIPS 204).**
+**A proof-of-concept that models the operational layer behind a tokenized private fund, not just the smart contracts, but the investor onboarding, transfer restrictions, books and records, daily reconciliation, exception management, and a hybrid post-quantum signing layer that secures every off-chain operational approval with ML-DSA-65 (NIST FIPS 204).**
 
 ---
 
@@ -10,7 +10,7 @@ Deploying a token is straightforward. Operating a tokenized fund is not.
 
 In traditional fund administration, a transfer agent maintains investor eligibility records, validates subscription and redemption instructions against cash movements, enforces transfer restrictions, and reconciles share registers daily. When the share register moves on-chain, that operational surface area doesn't shrink, it expands. Now the books and records live in two places, and they must agree.
 
-There is a second problem. The ECDSA signatures securing blockchain transactions today are vulnerable to quantum computers. While full protocol-level migration is years away, the operational layer — where humans authorize mints, burns, and wallet registrations — is entirely off-chain and under our control. We can secure it with post-quantum cryptography today.
+There is a second problem. The ECDSA signatures securing blockchain transactions today are vulnerable to quantum computers. While full protocol-level migration is years away, the operational layer, where humans authorize mints, burns, and wallet registrations, is entirely off-chain and under our control. We can secure it with post-quantum cryptography today.
 
 This repo demonstrates both: **the operational engine room behind tokenized assets, and a forward-looking hybrid model that makes every off-chain approval quantum-resistant.**
 
