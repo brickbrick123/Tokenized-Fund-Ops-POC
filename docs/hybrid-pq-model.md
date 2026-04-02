@@ -4,13 +4,13 @@
 
 This system implements a **hybrid classical + post-quantum** architecture for tokenized fund operations. On-chain transactions continue to use classical ECDSA (the Ethereum standard), while all off-chain operational approvals are secured with **ML-DSA-65** (NIST FIPS 204, formerly CRYSTALS-Dilithium), a lattice-based post-quantum digital signature scheme.
 
-The rationale: quantum computers threaten the ECDSA signatures that secure blockchain transactions, but the timeline for that threat is uncertain. Rather than waiting for full protocol-level PQ migration, this model introduces PQ-signed approval artifacts at the operational layer — the part of fund administration where humans authorize actions before they reach the chain.
+The rationale: quantum computers threaten the ECDSA signatures that secure blockchain transactions, but the timeline for that threat is uncertain. Rather than waiting for full protocol-level PQ migration, this model introduces PQ-signed approval artifacts at the operational layer, the part of fund administration where humans authorize actions before they reach the chain.
 
 ---
 
 ## Why Hybrid
 
-A fully post-quantum blockchain does not exist at institutional scale today. Migrating Ethereum's signature scheme is a multi-year protocol effort. But the operational approval layer — where a fund administrator authorizes a mint, burn, or wallet registration — is entirely off-chain and under our control.
+A fully post-quantum blockchain does not exist at institutional scale today. Migrating Ethereum's signature scheme is a multi-year protocol effort. But the operational approval layer, where a fund administrator authorizes a mint, burn, or wallet registration, is entirely off-chain and under our control.
 
 By signing every off-chain approval with ML-DSA-65:
 
