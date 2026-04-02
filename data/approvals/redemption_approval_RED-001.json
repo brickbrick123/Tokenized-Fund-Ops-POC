@@ -1,0 +1,13 @@
+{
+  "artifact_type": "redemption_approval",
+  "redemption_id": "RED-001",
+  "investor_id": "INV-002",
+  "wallet_address": "0x2001000000000000000000000000000000000000",
+  "tokens_to_burn": "250.000000",
+  "redemption_usd": "250000.00",
+  "request_date": "2025-03-12",
+  "approved_by": "ops_authority",
+  "timestamp": "2026-04-02T14:09:37.267109+00:00",
+  "pq_algorithm": "ML-DSA-65",
+  "pq_public_key_hash": "79f1c27b33b8aea9"
+}

@@ -1,0 +1,14 @@
+{
+  "artifact_type": "subscription_approval",
+  "subscription_id": "SUB-002",
+  "investor_id": "INV-002",
+  "wallet_address": "0x2001000000000000000000000000000000000000",
+  "amount_usd": "1000000.00",
+  "tokens_expected": "1000.000000",
+  "cash_received": "yes",
+  "cash_date": "2025-03-01",
+  "approved_by": "ops_authority",
+  "timestamp": "2026-04-02T14:09:37.265939+00:00",
+  "pq_algorithm": "ML-DSA-65",
+  "pq_public_key_hash": "79f1c27b33b8aea9"
+}

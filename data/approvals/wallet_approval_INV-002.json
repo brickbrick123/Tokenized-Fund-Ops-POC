@@ -1,0 +1,11 @@
+{
+  "artifact_type": "wallet_approval",
+  "investor_id": "INV-002",
+  "wallet_address": "0x2001000000000000000000000000000000000000",
+  "wallet_label": "elm-street-primary",
+  "approved_by": "ops_authority",
+  "approved_date": "2025-02-02",
+  "timestamp": "2026-04-02T14:09:37.263988+00:00",
+  "pq_algorithm": "ML-DSA-65",
+  "pq_public_key_hash": "79f1c27b33b8aea9"
+}
