@@ -12,3 +12,6 @@ __pycache__/
 
 ## Environment
 .env
+
+## PQ key material (secret key excluded; public key committed)
+data/keys/*.key
